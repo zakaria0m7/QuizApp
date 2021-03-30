@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz2"
+    android:orientation="vertical"
+    android:layout_margin="35dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/retro2" />
+
+    <TextView
+        android:layout_margin="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Que signifie ce panneau de signalisation ?"
+        android:gravity="center"
+        android:textColor="@color/teal_700"
+        android:textSize="25sp"
+
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+        <RadioButton android:id="@+id/choix_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attention virage"
+            android:onClick="onRadioButtonClicked"
+            />
+        <RadioButton android:id="@+id/choix_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attention succession de virage"
+            android:onClick="onRadioButtonClicked"
+            />
+        <RadioButton android:id="@+id/choix_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sortie d'autoroute"
+            android:onClick="onRadioButtonClicked"
+            />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/bNext"
+        android:onClick="onRadioButtonClicked"/>
+
+</LinearLayout>

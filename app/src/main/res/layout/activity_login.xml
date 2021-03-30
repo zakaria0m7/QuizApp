@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:layout_margin="35dp">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:src="@drawable/phone" />
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/etLogin"
+       android:hint="Login"
+       android:drawableLeft="@drawable/ic_baseline_email_24" />
+
+   <EditText
+       android:id="@+id/etPassword"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:drawableLeft="@drawable/ic_baseline_lock_24"
+       android:hint="Password"
+       android:inputType="textPassword" />
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:text="Sing in"
+      android:id="@+id/bLogin"
+       />
+
+   <TextView
+       android:id="@+id/tvRegister"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="To register click here"
+       android:textColor="@color/purple_500"
+       android:textSize="25sp"
+       />
+
+</LinearLayout>
