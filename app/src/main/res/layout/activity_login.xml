@@ -6,32 +6,61 @@
     android:layout_height="match_parent"
     tools:context=".Login"
     android:orientation="vertical"
-    android:layout_margin="35dp">
+    android:layout_margin="15dp"
+    android:background="@drawable/background"
+
+    >
 
    <ImageView
        android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:src="@drawable/phone" />
+       android:layout_height="450dp"
+       android:src="@drawable/games"
+       />
    <EditText
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
+       android:layout_width="350dp"
+       android:layout_gravity="center"
+       android:layout_height="50dp"
+       android:drawablePadding="6dp"
+       android:paddingLeft="6dp"
+       android:layout_marginBottom="5dp"
+       android:background="@drawable/curstom_button"
        android:id="@+id/etLogin"
        android:hint="Login"
-       android:drawableLeft="@drawable/ic_baseline_email_24" />
+
+
+       android:drawableLeft="@drawable/ic_baseline_email_24"
+
+       android:layout_marginTop="10dp"/>
 
    <EditText
+       android:layout_width="350dp"
+       android:layout_gravity="center"
        android:id="@+id/etPassword"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
+       android:layout_height="50dp"
        android:drawableLeft="@drawable/ic_baseline_lock_24"
        android:hint="Password"
-       android:inputType="textPassword" />
+       android:drawablePadding="6dp"
+       android:paddingLeft="6dp"
+       android:inputType="textPassword"
+       android:background="@drawable/curstom_button"
+       android:layout_marginBottom="10dp"/>
    <Button
-       android:layout_width="match_parent"
+       android:layout_width="250dp"
+       android:layout_gravity="center"
+       android:background="@drawable/curstom_button"
        android:layout_height="wrap_content"
       android:text="Sing in"
       android:id="@+id/bLogin"
        />
+
+   <com.facebook.login.widget.LoginButton
+       android:id="@+id/login_button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="10dp" />
+
 
    <TextView
        android:id="@+id/tvRegister"
@@ -39,7 +68,7 @@
        android:layout_height="wrap_content"
        android:gravity="center"
        android:text="To register click here"
-       android:textColor="@color/purple_500"
+       android:textColor="@color/colorPrimaryDark"
        android:textSize="25sp"
        />
 

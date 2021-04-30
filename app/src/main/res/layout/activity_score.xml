@@ -7,7 +7,8 @@
     android:layout_height="match_parent"
     tools:context=".Score"
     android:orientation="vertical"
-    android:layout_margin="35dp">
+    android:layout_margin="35dp"
+    android:background="@drawable/background">
 
     <TextView
         android:id="@+id/tvRegister"
@@ -15,7 +16,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Your Score is"
-        android:textColor="@color/purple_500"
+        android:textColor="@color/white"
         android:textSize="50sp"
         />
 
@@ -27,7 +28,8 @@
         plainpie:percentage="50"
         plainpie:percentage_size="50"
         android:layout_marginBottom="10dp"
-        plainpie:inner_text_visibility="true"/>
+        plainpie:inner_text_visibility="true"
+        />
 
 
     <LinearLayout

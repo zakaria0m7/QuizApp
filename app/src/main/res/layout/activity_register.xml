@@ -4,49 +4,75 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="35dp"
+    android:layout_margin="15dp"
     android:orientation="vertical"
-    tools:context=".Register">
+    tools:context=".Register"
+    android:background="@drawable/background"
+    >
 
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/phone" />
+        android:src="@drawable/register" />
 
     <EditText
+        android:background="@drawable/curstom_button"
         android:id="@+id/etName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:drawablePadding="6dp"
+        android:paddingLeft="6dp"
+        android:layout_marginBottom="5dp"
         android:drawableLeft="@drawable/ic_baseline_person_24"
-        android:hint="Name" />
+        android:hint="Name"
+
+        />
 
     <EditText
+        android:background="@drawable/curstom_button"
         android:id="@+id/etMail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:drawablePadding="6dp"
+        android:paddingLeft="6dp"
+        android:layout_marginBottom="5dp"
         android:drawableLeft="@drawable/ic_baseline_email_24"
         android:hint="E-mail" />
 
     <EditText
+        android:background="@drawable/curstom_button"
         android:id="@+id/etPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:drawablePadding="6dp"
+        android:paddingLeft="6dp"
+        android:layout_marginBottom="5dp"
         android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:hint="Password"
         android:inputType="textPassword" />
 
     <EditText
+        android:background="@drawable/curstom_button"
         android:id="@+id/etConfirm"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:drawablePadding="6dp"
+        android:paddingLeft="6dp"
+        android:layout_marginBottom="15dp"
         android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:hint="Confirm  Password"
         android:inputType="textPassword" />
 
     <Button
+        android:background="@drawable/curstom_button"
         android:id="@+id/bRegister"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:text="Sing up" />
 

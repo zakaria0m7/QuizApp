@@ -17,19 +17,19 @@ public class QuestionList {
     public QuestionList() {
         liste=new ArrayList<Question>();
 
-        Question question0=new Question("Que faire lorsque le feu de signalisation passe au orange ?", new String[]{"se preparer pour arreter", "traverser attentivement", "accelerer"},R.drawable.feurouge,1);
+        Question question0=new Question("What is the name of this King of fighter character  ?", new String[]{"Yashiro Nanakase", "Ryuji Yamazaki", "Iori Yagami"},R.drawable.iori2,3);
         liste.add(question0);
 
-        Question question1=new Question("Comment allez-vous faire face à cette situation ?", new String[]{"tourner rapidement a droite", "continue tout droit", "augmenter la vitesse"},R.drawable.retro,2);
+        Question question1=new Question("What is the name of mario's brother ?", new String[]{"Sonic", "Luigi", "Picola"},R.drawable.mario,2);
         liste.add(question1);
 
-        Question question2=new Question("Que signifie le panneau de signalisation ?", new String[]{"Virage", "succession de virages", "Fin de la route"},R.drawable.retro2,2);
+        Question question2=new Question("What is the name of this Game ?", new String[]{"World of warcraft", "Dofus", "League of legend"},R.drawable.lol,3);
         liste.add(question2);
 
-        Question question3=new Question("Vous etes en retard, et vous voulez aller a gauche ?", new String[]{"passer rapidement avant le tramway", "attendre un petit peu", "Actionner le klaxon"},R.drawable.tram,2);
+        Question question3=new Question("Who is this character ?", new String[]{"Ali zawa", "Carl jhonson", "Lmheydi from wja3 trab"},R.drawable.cj,2);
         liste.add(question3);
 
-        Question question4=new Question("est ce que c'est bien de répandre au telephone pendant la conduite ?", new String[]{"Non c'est interdit", "oui si c'est urgent", "oui sans aucun soucis"},R.drawable.boitevitesse,1);
+        Question question4=new Question("What is the name of this Game ?", new String[]{"Puzzle Bubble", "Metal Slug", "Cadillacs of Dinosors"},R.drawable.mustapha,3);
         liste.add(question4);
     }
 

@@ -30,7 +30,7 @@ public class Register extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private DatabaseReference mDatabase;
 
-    List<User> listeUsers=new ArrayList<User>();
+   // List<User> listeUsers=new ArrayList<User>();
 
     private boolean isEmpty(EditText etText) {
         if (etText.getText().toString().trim().length() > 0)
@@ -99,5 +99,9 @@ public class Register extends AppCompatActivity {
         });
     }
 
-
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
+    }
 }

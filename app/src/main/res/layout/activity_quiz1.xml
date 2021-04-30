@@ -6,22 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".Quiz1"
     android:orientation="vertical"
-    android:layout_margin="35dp">
+    android:layout_margin="15dp"
+    android:background="@drawable/background">
 
     <ImageView
         android:id="@+id/ivPicture"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
         android:src="@drawable/feurouge" />
 
     <TextView
         android:id="@+id/tvQuestion"
-        android:layout_margin="25sp"
+        android:layout_margin="15sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Que signifie le feu orange ?"
         android:gravity="center"
-        android:textColor="@color/teal_700"
+        android:textColor="@color/purple_700"
         android:textSize="25sp"
 
         />
@@ -35,26 +37,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Passer"
+        android:textSize="20dp"
 
          />
     <RadioButton android:id="@+id/rb2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Arreter"
+        android:textSize="20dp"
 
         />
         <RadioButton android:id="@+id/rb3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Faire demi tour"
+            android:textSize="20dp"
 
             />
     </RadioGroup>
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:text="Next"
         android:id="@+id/bNext"
+        android:background="@drawable/curstom_button"
+
         />
 </LinearLayout>
